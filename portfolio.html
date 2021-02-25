@@ -12,96 +12,125 @@
     <link rel="stylesheet" href="./css/styles.css" />
 </head>
 <body>
-    <header>
-        <nav>
-            <a lang="en" href=""><span>Web</span>Studio</a>
-            <ul>
-                <li><a href="./index.html">Студия</a>
+    <header class="header">
+        <nav class="navigation">
+            <a class="logo link" lang="en" href=""><span>Web</span>Studio</a>
+            <ul class="navigation-list list">
+                <li class="navigation-item link">
+                    <a class="navigation-link" href="./index.html">Студия</a>
                 </li>
-                <li><a href="">Портфолио</a>
+                <li class="navigation-item link">
+                    <a class="navigation-link" href="">Портфолио</a>
                 </li>
-                <li><a href="">Контакты</a>
+                <li class="navigation-item link">
+                    <a class="navigation-link" href="">Контакты</a>
                 </li>
             </ul>
         </nav>
-        <ul>
-            <li>
-                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <ul class="contact-list list">
+            <li class="contact-items">
+                <a class="mail-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
             <li>
-                <a href="tel:+380961111111">+38 096 111 11 11</a>
+                <a class="tel-link link" href="tel:+380961111111">+38 096 111 11 11</a>
             </li>
         </ul>
     </header>
     <main>
         <!--Галлерея работ-->
         <section>
-            <h2>Галлерея работ</h2>
-                <!--Список фильтров галлереи-->
-                <ul>
+            <h1>Галлерея работ</h1>
+        <!--Список фильтров галлереи-->
+                <ul class="list">
                     <li><button type="button">Все</button></li>
                     <li><button type="button">Веб-сайты</button></li>
                     <li><button type="button">Приложения</button></li>
                     <li><button type="button">Дизайн</button></li>
                     <li><button type="button">Маркетинг</button></li>    
                 </ul>
-
-                <ul>
+        <!-- Карточки работ -->
+                <ul class="list">
                     <li>
-                        <img src="./images/portfolio/technokhryak.jpg" alt="Изображение ноутбука с открытым веб-сайтом Технокряк" />
+                        <a class="link" href=""> <img src="./images/portfolio/technokhryak.jpg" alt="Изображение ноутбука с открытым веб-сайтом Технокряк" />
                             <h3>Технокряк</h3>
                                 <p>Веб-сайт</p>
+                        </a>
                     </li>
 
                     <li>
-                        <img src="./images/portfolio/poster.jpg" alt="Постер с двумя баскетболистами в прыжке и с мячом" />
+                        <a class="link" href=""> <img src="./images/portfolio/poster.jpg" alt="Постер с двумя баскетболистами в прыжке и с мячом" />
                             <h3>Постер New Orlean vs Golden Star</h3>
                                 <p>Дизайн</p>
+                        </a>
                     </li>
 
                     <li>
-                        <img src="./images/portfolio/seafood.jpg" alt="Логотип с названием ресторана на фоне большой рыбы" />
+                        <a class="link" href=""> <img src="./images/portfolio/seafood.jpg" alt="Логотип с названием ресторана на фоне большой рыбы" />
                             <h3>Ресторан Seafood</h3>
                                 <p>Приложение</p>
+                        </a>
                     </li>
                     
                     <li>
-                        <img src="./images/portfolio/prime.jpg" alt="Изображение наушников с накладными амбушюрами" />
+                        <a class="link" href=""> <img src="./images/portfolio/prime.jpg" alt="Изображение наушников с накладными амбушюрами" />
                             <h3>Проект Prime</h3>
                                 <p>Маркетинг</p>
+                        </a>
                     </li>
                     
                     <li>
-                        <img src="./images/portfolio/boxes.jpg" alt="Фото двух коробочек, белой и коричневой, разного размера на белом фоне" />
+                        <a class="link" href=""> <img src="./images/portfolio/boxes.jpg" alt="Фото двух коробочек, белой и коричневой, разного размера на белом фоне" />
                             <h3>Проект Boxes</h3>
                                 <p>Приложение</p>
+                        </a>
                     </li>
                     
                     <li>
-                        <img src="./images/portfolio/web-site-inspiration.jpg" alt="Фото экрана компьютера с открытым сайтом" />
+                        <a class="link" href=""> <img src="./images/portfolio/web-site-inspiration.jpg" alt="Фото экрана компьютера с открытым сайтом" />
                             <h3>Inspiration has no Borders</h3>
                                 <p>Веб-сайт</p>
+                        </a>
                     </li>
                     
                     <li>
-                        <img src="./images/portfolio/design.jpg" alt="Разворот журнала на белом фоне" />
+                        <a class="link" href=""> <img src="./images/portfolio/design.jpg" alt="Разворот журнала на белом фоне" />
                             <h3>Издание Limited Edition</h3>
                                 <p>Дизайн</p>
+                        </a>
                     </li>
 
                     <li>
-                        <img src="./images/portfolio/lab.jpg" alt="Лого фирмы с изображением бирки с надписью" />
+                        <a class="link" href=""> <img src="./images/portfolio/lab.jpg" alt="Лого фирмы с изображением бирки с надписью" />
                             <h3>Проект LAB</h3>
                                 <p>Маркетинг</p>
+                        </a>
                     </li>
                                                             
                     <li>
-                        <img src="./images/portfolio/app.jpg" alt="Руки и ноутбук" />
+                        <a class="link" href=""> <img src="./images/portfolio/app.jpg" alt="Руки и ноутбук" />
                             <h3>Growing Business</h3>
                                 <p>Приложение</p>
+                        </a>
                     </li>
                 </ul>
     </section>            
     </main>
+    <footer>
+        <a class="link" lang="en" href=""><span>Web</span>Studio</a>
+        <address class="address">
+            <ul class="list">
+                <li>
+                    <a class="link" href="https://goo.gl/maps/c7qryHXfXwKfHJzUA" target="_blank" rel="noopener noreferrer">г. Киев, пр-т
+                        Леси Украинки, 26</a>
+                </li>
+                <li>
+                    <a class="link" href="mailto:info@example.com">info@example.com</a>
+                </li>
+                <li>
+                    <a class="link" href="tel:+380991111111">+38 099 111 11 11</a>
+                </li>
+            </ul>
+        </address>
+    </footer>
 </body>
 </html>

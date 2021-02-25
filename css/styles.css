@@ -1,1 +1,17 @@
+.link {
+  text-decoration: none;
+}
 
+.list {
+  list-style: none;
+}
+
+.address {
+  font-style: normal;
+}
+
+:root {
+  --main-font: Raleway;
+  --secondary-font: Roboto;
+  --accent-color: 2196f3;
+}
