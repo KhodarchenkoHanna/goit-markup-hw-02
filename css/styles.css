@@ -11,7 +11,48 @@
 }
 
 :root {
-  --main-font: Raleway;
-  --secondary-font: Roboto;
-  --accent-color: 2196f3;
+  --main-font: 'Raleway', sans-serif;
+  --secondary-font: 'Roboto', sans-serif;
+  --accent-color: #2196f3;
 }
+
+/* HEADER */
+.logo {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000;
+}
+
+.logo-part {
+  color: var(--accent-color);
+}
+
+.navigation-link:hover,
+.navigation-link:focus,
+.contact:hover,
+.contact:focus {
+  color: var(--accent-color);
+}
+
+.navigation-link {
+font-family:var(--secondary-font)
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #212121;
+}
+
+.contact {
+font-family:var(--secondary-font)
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #757575;
+}
+
+/* HEADER END */
