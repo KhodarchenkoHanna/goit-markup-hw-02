@@ -1,3 +1,4 @@
+/* ------COMPONENTS----- */
 :root {
   --main-font: 'Roboto', sans-serif;
   --secondary-font: 'Raleway', sans-serif;
@@ -6,10 +7,12 @@
 
 body {
   font-family: var(--main-font);
+  color: #212121;
 }
 
 .link {
   text-decoration: none;
+  color: #212121;
 }
 
 .list {
@@ -19,6 +22,12 @@ body {
 .address {
   font-style: normal;
 }
+
+.active {
+  color: var(--accent-color);
+}
+
+/* ------COMPONENTS----- */
 
 /* HEADER */
 .logo {
@@ -39,7 +48,6 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
 }
 
 .navigation-link:hover,
@@ -67,7 +75,6 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  /* or 136% */
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -106,7 +113,6 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
 }
 
 .advantages-description {
@@ -124,7 +130,6 @@ body {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
 }
 /* END - COMPANY SKILLS */
 
@@ -140,7 +145,6 @@ body {
   line-height: 19px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
 }
 
 .team-member-job {
@@ -167,7 +171,6 @@ body {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
 }
 
 .filter-btn:hover,
@@ -181,7 +184,6 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
 }
 
 .project-description {
@@ -214,5 +216,10 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.address-contact:hover,
+.address-contact:focus {
+  color: var(--accent-color);
 }
 /* FOOTER END*/
