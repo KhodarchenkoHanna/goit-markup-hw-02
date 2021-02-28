@@ -7,9 +7,12 @@
   --second-alternative-accent-color: #2196f3;
   --first-text-color: #212121;
   --second-text-color: #757575;
+  --alternative-second-text-color: rgba(255, 255, 255, 0.6);
   --third-text-color: #ffffff;
   --light-background-color: #f5f4fa;
   --dark-background-color: #2f303a;
+  --btn-box-shadow-color: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  --logo-light-theme-color: #000;
 }
 
 body {
@@ -43,7 +46,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #000;
+  color: var(--logo-light-theme-color);
 }
 
 .logo-part {
@@ -98,7 +101,7 @@ body {
   border-radius: 4px;
   color: var(--third-text-color);
   background-color: var(--accent-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: var(--btn-box-shadow-color);
 }
 
 .modal-btn:hover,
@@ -223,7 +226,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--alternative-second-text-color);
 }
 
 .address-contact:hover,
