@@ -92,6 +92,7 @@ body {
 }
 
 .modal-btn {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -175,12 +176,13 @@ body {
 }
 
 .filter-btn {
-  cursor: pointer;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+  cursor: pointer;
   background-color: var(--light-background-color);
 }
 
